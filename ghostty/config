@@ -1,13 +1,28 @@
-term = xterm-256color
-theme = catppuccin-mocha
-
-font-family = "Hack Nerd Font"
+window-padding-balance = true
+background-opacity = 0.80
+background-blur-radius = 7
+theme = rose-pine-moon
 font-thicken = true
-font-size = 16
-
+font-family = JetBrains Mono Nerd Font
+macos-titlebar-style = tabs
+custom-shader-animation = true
+clipboard-read = allow
+clipboard-write = allow
+window-colorspace = display-p3
+unfocused-split-fill = #315656
+selection-background = #312f44
+selection-foreground = #e0def4
+cursor-color = #896FEE
+cursor-text = #BB78B1	
 mouse-hide-while-typing = true
-window-decoration = true
-keybind = global:cmd+s=toggle_quick_terminal
+copy-on-select = clipboard
 
-background-opacity = 0.7
-background-blur-radius = 20
+#Keybindings
+keybind = shift+command+r=reload_config
+
+keybind = shift+command+h=new_split:left
+keybind = shift+command+j=new_split:down
+keybind = shift+command+k=new_split:up
+keybind = shift+command+l=new_split:right
+cursor-style = block
+
