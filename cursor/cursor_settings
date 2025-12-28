@@ -1,0 +1,85 @@
+{
+  "window.commandCenter": true,
+  "editor.fontFamily": "CommitMono",
+  "terminal.external.osxExec": "Ghostty.app",
+  "editor.cursorStyle": "block",
+  "editor.codeLensFontFamily": "CommitMono",
+  "editor.inlayHints.fontFamily": "CommitMono",
+  "debug.console.fontFamily": "CommitMono",
+  "cursor.composer.shouldAllowCustomModes": true,
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#FF8C00",
+    "editorLineNumber.activeForeground": "#F38752",
+    "tab.activeBorderTop": "#FF8C00",
+    "tab.activeForeground": "#FF8C00"
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.toolsManagement.autoUpdate": true,
+  "diffEditor.experimental.showMoves": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "better-comments.tags": [
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "@",
+      "color": "#61AFEF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "accessibility.signals.voiceRecordingStarted": {
+    "sound": "auto"
+  },
+  "accessibility.signals.terminalBell": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.terminalCommandFailed": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.terminalCommandSucceeded": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "git.suggestSmartCommit": false
+}
