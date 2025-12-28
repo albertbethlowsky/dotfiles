@@ -1,28 +1,27 @@
 window-padding-balance = true
-background-opacity = 0.80
+background-opacity = 0.70
 background-blur-radius = 7
-theme = rose-pine-moon
+theme = Catppuccin Mocha
 font-thicken = true
-font-family = JetBrains Mono Nerd Font
+font-feature=-liga
+font-family = CommitMono
 macos-titlebar-style = tabs
 custom-shader-animation = true
 clipboard-read = allow
 clipboard-write = allow
-window-colorspace = display-p3
+window-colorspace = srgb
 unfocused-split-fill = #315656
-selection-background = #312f44
-selection-foreground = #e0def4
-cursor-color = #896FEE
+selection-background = #FF8C00
+selection-foreground = #E0DEF4
+cursor-color = #FF8C00
 cursor-text = #BB78B1	
 mouse-hide-while-typing = true
-copy-on-select = clipboard
-
 #Keybindings
 keybind = shift+command+r=reload_config
-
 keybind = shift+command+h=new_split:left
 keybind = shift+command+j=new_split:down
 keybind = shift+command+k=new_split:up
 keybind = shift+command+l=new_split:right
+keybind = shift+enter=text:\n
 cursor-style = block
-
+grapheme-width-method=unicode
